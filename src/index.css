@@ -81,3 +81,30 @@ body {
 .fw-black {
   font-weight: 900;
 }
+
+.page-bl-above {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: var(--black);
+
+  &::after {
+    content: '';
+    display: block;
+    width: 529px;
+    height: 0px;
+    border: 2px solid var(--black);
+  }
+}
+
+.page-bl-title {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 170%;
+  color: #333333;
+}
