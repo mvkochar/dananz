@@ -1,0 +1,116 @@
+.footer-discuss {
+    padding: 38px 120px;
+    background-color: #2C3878;
+    gap: 155px;
+}
+
+.footer-discuss-title {
+    width: 613px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 170%;
+    color: var(--white);
+}
+
+.footer-discuss-subtitle {
+    width: 432px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #D9D9D9;
+}
+
+.footer-discuss-contact {
+    display: block;
+    width: 142px;
+    margin-top: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: var(--white);
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+}
+
+.footer-bar {
+    margin-top: 80px;
+    margin-bottom: 84px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.footer-bar-title {
+    width: 481px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 170%;
+    color: #333333;
+}
+
+.footer-bar-fm {
+    label {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 18px;
+        color: #333333;
+
+        &::before {
+            content: '';
+            display: block;
+            width: 14px;
+            height: 14.02px;
+            background: #333333;
+            border-radius: 100%;
+        }
+    }
+
+    button {
+        margin-top: 28px;
+        float: right;
+    }
+
+    input {
+        display: block;
+        width: 440px;
+        padding-bottom: 15.02px;
+        border: none;
+        border-bottom: 1px solid #141414;
+        outline: none;
+        font-size: 16px;
+        color: #333333;
+
+        &::placeholder {
+            color: #D9D9D9;
+        }
+    }
+}
+
+.footer-bar-follow {
+    margin-top: 39.72px;
+    margin-left: 237px;
+
+    .follow-title {
+        font-size: 16px;
+        line-height: 160%;
+        color: #333333;
+    }
+
+    .follow-box {
+        margin-top: 11px;
+        gap: 25px;
+
+        a {
+            justify-content: center;
+            align-items: center;
+            width: 32px;
+            height: 32px;
+            background: #D9D9D9;
+            border: 1px solid #D9D9D9;
+            border-radius: 100%;
+            text-align: center;
+        }
+    }
+}
