@@ -1,0 +1,99 @@
+.about-main {
+    margin-top: 97px;
+
+    .page-desc {
+        width: 582px;
+        margin: 36px auto 0;
+    }
+}
+
+.about-main-img {
+    width: fit-content;
+    margin: 85px auto 0;
+}
+
+.about-achievement,
+.about-service {
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.about-achievement-box {
+    margin-top: 56px;
+    gap: 59px;
+}
+
+.about-achievement-stats {
+    width: 252px;
+    height: 525px;
+    padding-top: 40px;
+    padding-bottom: 44px;
+    padding-left: 48px;
+    padding-right: 48px;
+    background-color: #2C3878;
+    flex-direction: column;
+    gap: 57px;
+
+    dl {
+        text-align: center;
+        color: var(--white);
+
+        dt {
+            font-size: 52px;
+        }
+
+        dd {
+            font-size: 16px;
+        }
+    }
+}
+
+.about-service {
+    margin-bottom: 100px;
+}
+
+.about-service-desc {
+    width: 471px;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 160%;
+    color: #9C9C9C;
+}
+
+.about-service-box {
+    margin-top: 40px;
+    gap: 18px;
+}
+
+.about-service-item {
+    width: 388px;
+    padding-top: 20px;
+    padding-bottom: 22px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    .service-item-elipse {
+        width: 63px;
+        height: 63px;
+        margin: 0 auto;
+        background-color: #D9D9D9;
+        border-radius: 100%;
+    }
+
+    .service-item-title {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #333333;
+    }
+
+    .service-item-desc {
+        width: 334px;
+        margin: 20px auto 0;
+        font-size: 18px;
+        line-height: 160%;
+        color: #9C9C9C;
+    }
+}

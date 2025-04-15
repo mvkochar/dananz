@@ -82,6 +82,19 @@ body {
   font-weight: 900;
 }
 
+.page-title {
+  font-size: 56px;
+  line-height: 140%;
+  color: var(--black);
+}
+
+.page-desc {
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: var(--black);
+}
+
 .page-bl-above {
   display: flex;
   align-items: center;
