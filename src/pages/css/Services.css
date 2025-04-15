@@ -1,0 +1,79 @@
+.services-main {
+    margin-top: 97px;
+
+    .page-desc {
+        width: 518px;
+        margin: 36px auto 0;
+    }
+}
+
+.services-main-img {
+    width: fit-content;
+    margin: 57px auto 0;
+}
+
+.services-achievement,
+.services-product {
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.services-achievement-box {
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.services-achievement-item {
+    gap: 120px;
+
+    .achievement-item-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #333333;
+    }
+
+    .achievement-item-desc {
+        width: 334px;
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 160%;
+        color: #9C9C9C;
+    }
+}
+
+.services-product {
+    margin-bottom: 103px;
+    margin-right: 120px;
+}
+
+.services-product-desc {
+    align-self: flex-end;
+    width: 473px;
+    font-size: 18px;
+    line-height: 160%;
+    color: #9C9C9C;
+}
+
+.services-product-themes {
+    margin-top: 73px;
+    flex-direction: column;
+    gap: 43px;
+
+    .themes-item-caption {
+        gap: 87px;
+        font-weight: 600;
+        font-size: 32px;
+        color: #333333;
+    }
+
+    .themes-item-desc {
+        width: 469px;
+        margin-top: 24px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        color: #333333;
+    }
+}
