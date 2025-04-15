@@ -1,0 +1,148 @@
+.teams-main {
+    margin-top: 97px;
+
+    .page-desc {
+        width: 518px;
+        margin: 36px auto 0;
+    }
+}
+
+.teams-main-img {
+    width: fit-content;
+    margin: 57px auto 0;
+}
+
+.teams-designer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 120px;
+}
+
+.teams-designer-desc {
+    width: 471px;
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 160%;
+    color: #9C9C9C;
+}
+
+.teams-designer-box {
+    margin-top: 79px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.teams-designer-item {
+    width: 282px;
+    height: 400px;
+    padding-top: 292px;
+    padding-left: 12px;
+    background-color: #2C3878;
+    background-repeat: no-repeat;
+
+    .designer-item-info {
+        width: 258px;
+        height: 96px;
+        padding-top: 18px;
+        padding-left: 16px;
+        background-color: var(--white);
+    }
+
+    .designer-item-name {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #333333;
+    }
+
+    .designer-item-pos {
+        font-size: 16px;
+        line-height: 160%;
+        text-transform: uppercase;
+        color: #9C9C9C;
+    }
+
+    &:nth-child(1) {
+        background-image: url("/images/teams/1.png");
+    }
+
+    &:nth-child(2) {
+        background-image: url("/images/teams/2.png");
+    }
+
+    &:nth-child(3) {
+        background-image: url("/images/teams/3.png");
+    }
+
+    &:nth-child(4) {
+        background-image: url("/images/teams/4.png");
+    }
+
+    &:nth-child(5) {
+        background-image: url("/images/teams/5.png");
+    }
+
+    &:nth-child(6) {
+        background-image: url("/images/teams/6.png");
+    }
+
+    &:nth-child(7) {
+        background-image: url("/images/teams/7.png");
+    }
+
+    &:nth-child(8) {
+        background-image: url("/images/teams/8.png");
+    }
+}
+
+.teams-service {
+    margin-bottom: 100px;
+    margin-left: 120px;
+}
+
+.teams-service-desc {
+    width: 471px;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 160%;
+    color: #9C9C9C;
+}
+
+.teams-service-box {
+    margin-top: 40px;
+    gap: 18px;
+}
+
+.teams-service-item {
+    width: 388px;
+    padding-top: 20px;
+    padding-bottom: 22px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    .service-item-elipse {
+        width: 63px;
+        height: 63px;
+        margin: 0 auto;
+        background-color: #D9D9D9;
+        border-radius: 100%;
+    }
+
+    .service-item-title {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #333333;
+    }
+
+    .service-item-desc {
+        width: 334px;
+        margin: 20px auto 0;
+        font-size: 18px;
+        line-height: 160%;
+        color: #9C9C9C;
+    }
+}
