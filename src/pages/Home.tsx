@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './css/Home.css'
 
 const Home = () => {
@@ -45,7 +46,7 @@ const Home = () => {
               Online learning with us does not interfere with your daily life.
               because learning can be done anytime and anywhere.
             </p>
-            <a href="" className="home-about-more">Learn more</a>
+            <Link to="/about" className="home-about-more">Learn more</Link>
           </div>
         </div>
       </section>

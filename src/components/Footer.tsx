@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './css/Footer.css'
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
           <h4 className="footer-discuss-subtitle">
             Contact us below to work together to build your amazing interior
           </h4>
-          <a href="" className="footer-discuss-contact">Contact Us</a>
+          <Link to="/contact" className="footer-discuss-contact">Contact Us</Link>
         </div>
       </div>
       <div className="footer-bar d-f jc-sb">
