@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './css/Portfolio.css'
 
 const Portfolio = () => {
@@ -29,7 +30,7 @@ const Portfolio = () => {
                         Online learning with us does not interfere with your daily life.
                         Because learning can be done anytime and anywhere.
                     </p>
-                    <a href="" className="portfolio-info-more">See More</a>
+                    <Link to="/portfolio-details" className="portfolio-info-more">See More</Link>
                 </div>
 
             </section>
